@@ -1,8 +1,13 @@
-// main
+// FilterableProductTable
 import "./App.css";
+import SearchBar from "./SearchBar";
 
 function App() {
-  return <>Hello World</>;
+  return (
+    <>
+      <SearchBar />
+    </>
+  );
 }
 
 export default App;
