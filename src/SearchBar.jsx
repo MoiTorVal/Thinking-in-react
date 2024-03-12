@@ -1,5 +1,12 @@
 function SearchBar() {
-  return <input className="search-input" type="text" placeholder="Search..." />;
+  return (
+    <form>
+      <input type="text" placeholder="Search..." />
+      <label>
+        <input type="checkbox" /> Only show products in stock
+      </label>
+    </form>
+  );
 }
 
 export default SearchBar;
