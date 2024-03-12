@@ -1,3 +1,6 @@
+import SearchBar from "./SearchBar";
+import ProductTable from "./ProductTable";
+
 function FilterableProductTable({ products }) {
   return (
     <div>

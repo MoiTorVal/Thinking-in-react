@@ -1,3 +1,6 @@
+import ProductCategoryRow from "./ProductCategoryRow";
+import ProductRow from "./ProductRow";
+
 function ProductTable({ products }) {
   const rows = [];
   let lastCategory = null;
@@ -27,5 +30,4 @@ function ProductTable({ products }) {
     </table>
   );
 }
-
 export default ProductTable;
