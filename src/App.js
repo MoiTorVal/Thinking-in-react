@@ -1,4 +1,4 @@
-// FilterableProductTable
+// Entry Point
 import FilterableProductTable from "./FilterableProductTable";
 import PRODUCTS from "./PRODUCTS";
 
