@@ -1,10 +1,25 @@
-function SearchBar() {
+function SearchBar({
+  filterText,
+  inStockOnly,
+  onFilterTextChange,
+  onInStockOnlyChange,
+}) {
   return (
     <form>
-      <input type="text" placeholder="Search..." />
+      <input
+        type="text"
+        value={filterText}
+        placeholder="Search..."
+        onChange={(e) => onFilterTextChange(e.target.value)}
+      />
       <div>
         <label>
-          <input type="checkbox" /> Only show products in stock
+          <input
+            type="checkbox"
+            checked={inStockOnly}
+            onChange={(e) => onInStockOnlyChange(e.target.value)}
+          />{" "}
+          Only show products in stock
         </label>
       </div>
     </form>
