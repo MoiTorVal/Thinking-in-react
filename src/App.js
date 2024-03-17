@@ -1,4 +1,4 @@
-// Entry Point, going to make some improvements and help my understanding
+// keeping that score up
 import FilterableProductTable from "./FilterableProductTable";
 import PRODUCTS from "./PRODUCTS";
 
