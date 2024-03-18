@@ -1,3 +1,4 @@
+// for the glory of the fellowship of the ring
 import SearchBar from "./SearchBar";
 import ProductTable from "./ProductTable";
 import { useState } from "react";
